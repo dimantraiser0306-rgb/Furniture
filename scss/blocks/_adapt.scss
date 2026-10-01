@@ -1,0 +1,159 @@
+@media(max-width: 600px){
+    .main_whyUs-block{
+        gap: 5px;
+        flex-direction: column;
+    }
+    .main_whyUs-block1 h2{
+        margin-right: 0;
+    }
+    .product-chairs{
+        flex-direction: column;
+    }
+    .logo{
+        width: 20px;
+        height: 10px;
+    }
+    .header_main-top h1{
+        font-size: 25px;
+        margin-top: 0;
+         max-width: 300px;
+    }
+    .nav{
+        display: none;
+    }
+    .header_main-top{
+        margin-top: 20px;
+    }
+        .main_top-text{          
+            width: 200px;
+                
+        }
+        .header_main-top p{
+            line-height: 1;
+            font-size: 18px
+        }
+        .header_main-top{
+            gap: 20px
+        }
+        .main_top-input{
+            width: 300px;
+            height: 50px;
+        }
+        
+        .nav_button{
+            display: flex;
+        }
+        .main_best-products{
+            padding-top: 20px;
+            position: relative;
+
+                h2{
+                    font-size: 28px;                   
+                    top: 0;
+                    
+                }
+        }
+        .main_best-products{
+            background-color: #fff;
+        }
+        .product-chairs{
+            
+            text-align: center;
+        }
+        .description{
+            width: 400px;
+        }
+        .product-chairs .description,
+        .product-chairs .price_add{
+            background-color: #F7F7F7;
+        }
+        
+                
+        .product-chairs-block1,
+        .product-chairs-block2,
+        .product-chairs-block3,
+        .product-chairs-block4{
+                .price_add{
+                display: flex;
+                justify-content: center;
+                gap: 80px;}
+                
+        }
+        
+        .main_experience-blocks{
+            display:flex;
+            flex-direction: column;
+            margin: 0;
+            gap: 10px;
+                .main_experience-block1{
+                    margin-bottom: 10px;
+                    margin-bottom: 0;
+                        img{
+                            width: 400px;
+                        }
+                }
+                .main_experience-block2 {
+                    margin-top: 10px;
+                    padding-left: 10px;
+                    
+                }
+            
+            
+        }
+        .main_materials-blocks{
+            flex-direction: column;
+            text-align:right;
+            gap: 20px;
+            margin-bottom: 20px;
+                .main_materials-block1{
+                    padding: 10px;
+                }
+                .main_materials-block2{
+                    gap:10px;
+                    .img1{
+                        
+                        margin-right: 120px;
+                    }
+                    .img2{
+                        margin-left: 120px;
+                    }
+
+                }
+                .main_materials-block3 img{
+                    display: flex;
+                    width: 600px;
+                    margin-left: 40px;
+                    overflow: hidden;
+                }
+        }
+        .footer{
+            
+            .footer_blocks{
+                padding: 10px 10px;
+                justify-content: center;
+                gap: 5px;
+                }
+                p{
+                    margin-bottom: 0;
+                }
+        }
+        .footer_block1{
+            width: 150px;
+                h1{
+                    margin-bottom:10px ;
+                }
+                span{
+                    
+                    p{
+                        margin-top: 10px;
+                        font-size: 8px;
+                    }
+                }
+        }
+        .adapt_btn{
+            display: flex;
+        }
+        .play{      
+            transform: translateX(0);
+        }
+}

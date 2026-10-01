@@ -1,0 +1,17 @@
+
+/* base */
+@use "base/reset";
+@use "base/vars";
+@use "base/base";
+
+/* blocks */
+@use "blocks/header";
+@use 'main_top';
+@use 'main_whyUs';
+@use 'blocks/main_best';
+@use 'blocks/main_experience';
+@use 'blocks/footer';
+@use 'blocks/adapt';
+
+@import "./../fonts/Gilroy/stylesheet.css";
+

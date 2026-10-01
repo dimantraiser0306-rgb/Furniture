@@ -1,0 +1,34 @@
+.main_whyUs-block{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    padding: 0 80px;
+    margin-bottom: 120px;
+    
+    h2{
+        font-size: 41px;
+        font-weight: 700;
+        max-width: 242px;
+        margin-right: 102px;
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    p{
+        opacity: .8;
+        font-size:16px;
+        font-weight: 500;
+        line-height: 185%;
+        max-width: 287px;
+        color: #1E1E1E;
+        margin: 20px 0 14px 0;
+    }
+    a{
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
